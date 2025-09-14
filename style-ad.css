@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    background-color: black;
+}
+
+#logo-ad{
+    margin-top: 8%;
+    margin-left: 11%;
+}
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-top: 0%;
+}
