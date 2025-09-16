@@ -1,6 +1,8 @@
 body{
     height: 100vh;
     background-color: black;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #logo-ad{
@@ -10,8 +12,18 @@ body{
 
 #menu{
     display: flex;
-    flex-direction: row;
+    justify-content: baseline;
     background-color: aliceblue;
+    list-style: none;
     margin-left: 10%;
-    margin-top: 0%;
+    margin-top: -10%;
+
+}
+/*Chama apenas os intes da lista com o id menu*/
+#menu li{
+    margin-left: 3%;
+}
+/*Chama apenas os links e tira os sublianhados e decoracoes deles*/
+a{
+    text-decoration: none;
 }
